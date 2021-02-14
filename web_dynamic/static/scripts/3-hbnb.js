@@ -37,7 +37,7 @@ function getApiStatus() {
 
 function getPlaces () {
   $.ajax(
-    'http://localhost:5001/api/v1/places_search/', {
+    'http://0.0.0.0:5001/api/v1/places_search/', {
     data: JSON.stringify({}),
     headers: { 'Content-Type': 'application/json' },
     type: 'POST',
