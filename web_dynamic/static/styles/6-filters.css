@@ -52,7 +52,7 @@ button:hover {
 }
 
 .popover {
-    visibility: hidden;
+    visibility: collapse;
     width: 100%;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
@@ -71,7 +71,7 @@ button:hover {
 .amenities .popover {
     padding: 10px 0;
     margin-left: -5px;
-    margin-top: 0%;
+    margin-top: -10%;
 }
 
 .amenities .popover ul{
@@ -100,4 +100,13 @@ button:hover {
 .amenities:hover .popover,
 .locations:hover .popover {
     visibility: visible;
+}
+
+div.amenities h4 {
+    margin-top: 0;
+    height: 40px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
 }
